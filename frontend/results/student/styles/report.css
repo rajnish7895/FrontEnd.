@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background:#e5e9e6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2a3d66;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  padding: 20px;
+  flex: 1 1 250px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.card-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-value.large {
+  font-size: 2rem;
+}
+
+.card-sub {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.pass {
+  color: #2d9d4d;
+}
+
+.fail {
+  color: #d93025;
+}
+
+.sep {
+  color: #999;
+  margin: 0 5px;
+}
+
+/* Bar motif for chart placeholder */
+.chart-placeholder {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  justify-content: center;
+  height: 150px;
+  margin-top: 30px;
+}
+
+.chart-placeholder div {
+  background: linear-gradient(135deg, #4e79a7, #3b5b87);
+  width: 25px;
+  border-radius: 4px;
+}
+
+.chart-placeholder .bar1 { height: 60px; }
+.chart-placeholder .bar2 { height: 90px; }
+.chart-placeholder .bar3 { height: 120px; }
+.chart-placeholder .bar4 { height: 80px; }
+.chart-placeholder .bar5 { height: 100px; }

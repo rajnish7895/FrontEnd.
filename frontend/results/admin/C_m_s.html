@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Mapped Courses</title>
+    <link rel="stylesheet" href="styles/course_mngmnt.css">
+</head>
+<body>
+
+    <h2>STUDENT MAPPED COURSES</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Student</th>
+                <th>Course</th>
+                <th>Batch</th>
+                <th>Academic Year</th>
+                <th>Semester</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rajnish Kumar</td>
+                <td>FRONT END</td>
+                <td>2024</td>
+                <td>2025-2026</td>
+                <td>3</td>
+                <td>Active</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label>Student:
+            <input type="text" name="student" required>
+        </label>
+        <label>Course:
+            <input type="text" name="course" required>
+        </label>
+        <label>Batch:
+            <input type="number" name="batch" placeholder="" required>
+        </label>
+        <label>Academic Year:
+            <input type="text" name="academic_year" placeholder="" required>
+        </label>
+        <label>Semester:
+            <input type="number" name="semester" required>
+        </label>
+        
+        <button type="submit">Save </button>
+    </form>
+
+</body>
+</html>

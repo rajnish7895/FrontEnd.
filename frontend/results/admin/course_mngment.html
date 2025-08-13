@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COURSE MANAGEMENT</title>
+    <link rel="stylesheet" href="styles/course_mngmnt.css">
+</head>
+<body>
+
+    <h2>Course Management</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>CourseID</th>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Credits</th>
+                <th>Department</th>
+                <th>Semester</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>24SDCS01E</td>
+                <td>FRONT END DEVELOPMENT FRAMEWORKS</td>
+                <td>4</td>
+                <td>Computer Science</td>
+                <td>3</td>
+                <td><button>Edit</button> <button>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <label>Course Code:
+            <input type="text" name="code" required>
+        </label>
+        <label>Title:
+            <input type="text" name="title" required>
+        </label>
+        <label>Credits:
+            <input type="number" name="credits" required>
+        </label>
+        <label>Department:
+            <input type="text" name="department" required>
+        </label>
+        <label>Semester:
+            <input type="number" name="semester" required>
+        </label>
+        <label>Year:
+            <input type="number" name="year" required>
+        </label>
+        <button type="submit">Save Course</button>
+    </form>
+
+ 

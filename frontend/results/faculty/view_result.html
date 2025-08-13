@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Management</title>
+    <link rel="stylesheet" href="style/result.css">
+</head>
+<body>
+
+    <h1>Result Management</h1>
+    <section class="insert-form">
+        <h2>New Result</h2>
+        <form>
+            <label>Course:</label>
+            <input type="text" name="course" required>
+
+            <label>Student:</label>
+            <input type="text" name="student" required>
+
+            <label>Total:</label>
+            <input type="number" name="total" readonly placeholder="">
+
+            <label>Grade:</label>
+            <input type="text" name="grade">
+
+            <button type="submit">Add Result</button>
+        </form>
+    </section>
+    <section class="results-table">
+        <h2>RESULTS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Student</th>
+                    <th>Course</th>
+                    <th>Total Marks</th>
+                    <th>Grade</th>
+                    <th>AY</th>
+                    <th>Semester</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2400032531</td>
+                    <td>Rajnish Kumar</td>
+                    <td>24SDCS01E</td>
+                    <td>93</td>
+                    <td>A+</td>
+                    <td>2025-26</td>
+                    <td>3</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2400031441</td>
+                    <td>Subhash Kumar</td>
+                    <td>24SDCS01E</td>
+                    <td>87</td>
+                    <td>A</td>
+                    <td>2025-26</td>
+                    <td>3</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>

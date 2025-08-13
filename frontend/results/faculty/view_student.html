@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course-wise Student List</title>
+    <link rel="stylesheet" href="style/student.css">
+</head>
+<body>
+
+    <h2> STUDENT LIST</h2>
+    <form>
+        <label>Course:
+            <select name="course">
+                <option value="">All</option>
+                <option value="CSE101">FRONTEND</option>
+                <option value="CSE202">AIML</option>
+            </select>
+        </label>
+        <label>Section:
+            <select name="section">
+                <option value="">All</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+        </label>
+        <label>Academic Year:
+            <select name="academic_year">
+                <option value="">All</option>
+                <option value="2024-2025">2024-2025</option>
+                <option value="2023-2024">2023-2024</option>
+            </select>
+        </label>
+        <label>Semester:
+            <select name="semester">
+                <option value="">All</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </label>
+        <button type="submit">Apply Filters</button>
+    </form>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr>
+                <th>StudentID</th>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Rajnish Kumar</td>
+                <td>2400032531</td>
+                <td>Rajnish7895@gmail.com</td>
+                <td>Active</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Ravi Sharma</td>
+                <td>2400031432</td>
+                <td>ravi463@gmail.com</td>
+                <td>Active</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

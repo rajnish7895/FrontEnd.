@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faculty Mapped Course</title>
+    <link rel="stylesheet" href="styles/course_mngmnt.css">
+</head>
+<body>
+
+    <h2>Faculty Mapped Course</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Faculty</th>
+                <th>Course</th>
+                <th>Academic Year</th>
+                <th>Semester</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Satish Thatavarti</td>
+                <td>FRONT END DEVELOPMENT FRAMEWORKS</td>
+                <td>2025-2026</td>
+                <td>3</td>
+                <td>Active</td>
+                <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label>Faculty:
+            <input type="text" name="faculty" required>
+        </label>
+        <label>Course:
+            <input type="text" name="course" required>
+        </label>
+        <label>Academic Year:
+            <input type="text" name="academic_year" placeholder="" required>
+        </label>
+        <label>Semester:
+            <input type="number" name="semester" required>
+        </label>
+        <label>Status:
+            <select name="status">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+        </label>
+        <button type="submit">Save</button>
+    </form>
+
+</body>
+</html>
